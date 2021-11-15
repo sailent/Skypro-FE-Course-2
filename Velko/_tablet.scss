@@ -1,0 +1,26 @@
+@media (max-width: 1023px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .for_item {
+        height: 268px;
+    }
+    .product-content {
+        column-gap: 29px;
+    }
+
+    .bot_box:first-child {
+        display: none;
+    }
+    .offer_hide {
+        display: inline;
+    }
+    .order_box {
+        display: block;
+    }
+    .order_form {
+        max-width: 376px;
+        margin-top: 64px;
+    }
+}
